@@ -6,6 +6,7 @@
 \usepackage{lmodern}
 \usepackage{graphicx}
 \usepackage{booktabs}
+\usepackage{amsfonts}
 %\usepackage[a4paper]{geometry}
 \usepackage[top=1in, bottom=1.25in, left=0.5in, right=0.5in]{geometry}
 
@@ -24,7 +25,7 @@
 	{\Large \LOCATION\par}
 	\vspace{2cm}
 	\vfill
-    \includegraphics[width=1\textwidth]{cover}\par\vspace{1cm}
+    \includegraphics[width=1\textwidth]{figs/cover}\par\vspace{1cm}
 \end{titlepage}
 
 \newpage
@@ -44,6 +45,29 @@ Organizers:
     \item Gianmarco Brocchi, University of Iceland
 \end{itemize}
 
+\newcommand\talk[3]{%
+    \vspace{3 ex}
+    \noindent
+    {\large #1}
+
+    \noindent
+    \textbf{\textit{#2}}
+
+    \bigskip
+    \noindent
+    #3
+
+}
+
+\input{program/andersson}
+\input{program/barlet}
+\input{program/brocchi}
+\input{program/larusson}
+\input{program/lewandowski}
+\input{program/rattya}
+\input{program/ritter}
+\input{program/rubin}
+\input{program/sahin}
 
 
 \newpage
@@ -112,14 +136,3 @@ Organizers:
 \end{document}
 
 
-\documentclass[A4paper,openany]{book}
-\usepackage[pdftex]{graphicx}
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{tipa}
-%\usepackage{txfonts}
-\usepackage{textcomp}
-%\usepackage{amsthm}
-%\usepackage{array}
-%\usepackage{xy}
-\usepackage{fancyhdr}
