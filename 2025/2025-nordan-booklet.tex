@@ -1,4 +1,4 @@
-\documentclass[12pt,openany]{report}      % paper size is in preamble.sty
+\documentclass[12pt, openany, twoside]{report}      % paper size is in preamble.sty
 
 %\usepackage[utf8x]{inputenc}
 %\renewcommand*\sfdefault{ugq}
@@ -17,55 +17,24 @@
 
 \begin{document}
 \begin{titlepage}
-	\centering
-	%\vpspace{3cm}
-    {\textbf{\textsf{\fontsize{63}{18}\selectfont \TITLE}}\par}
-	\vspace{0.5cm}
-	{\Huge \textsf{\SUBTITLE}\par}
-	\vspace{0.5cm}
-	{\Large \LOCATION\par}
-	\vspace{2cm}
-	\vfill
-    \includegraphics[width=1\textwidth]{figs/cover}\par\vspace{1cm}
-\end{titlepage}
-\begin{titlepage}
-	\centering
-	%\vpspace{3cm}
-                        \includegraphics[scale = 0.45]{figs/title1} \\
-	\vspace{0.5cm}
-	{\Huge \textsf{\SUBTITLE}\par}
-	\vspace{0.5cm}
-	{\Large \LOCATION\par}
-	\vspace{2cm}
-	\vfill
-    \includegraphics[width=1\textwidth]{figs/cover}\par\vspace{1cm}
-\end{titlepage}
-\begin{titlepage}
-	\centering
-	%\vpspace{3cm}
-                        \includegraphics[scale = 0.45]{figs/title2} \\
-	\vspace{0.5cm}
-	{\Huge \textsf{\SUBTITLE}\par}
-	\vspace{0.5cm}
-	{\Large \LOCATION\par}
-	\vspace{2cm}
-	\vfill
-    \includegraphics[width=1\textwidth]{figs/cover}\par\vspace{1cm}
-\end{titlepage}
-\begin{titlepage}
-	\centering
-	%\vpspace{3cm}
-                        \includegraphics[scale = 0.45]{figs/title3} \\
-	\vspace{0.5cm}
-	{\Huge \textsf{\SUBTITLE}\par}
-	\vspace{0.5cm}
-	{\Large \LOCATION\par}
-	\vspace{2cm}
-	\vfill
-    \includegraphics[width=1\textwidth]{figs/cover}\par\vspace{1cm}
+    \centering
+    %\vpspace{3cm}
+    \includegraphics[scale = 0.45]{figs/title} \\
+    \vspace{0.5cm}
+    {\Huge \textrm{\SUBTITLE}\par}
+    \vspace{0.5cm}
+    {\Large \textsl{\LOCATION}\par}
+    \vspace{2cm}
+    \vfill
+    \vfill
+    \vfill
+    \includegraphics[width=0.8\textwidth]{figs/cover_crop}\par\vspace{1cm}
+    \vfill
+    \vfill
 \end{titlepage}
 
 \newpage
+\thispagestyle{empty}
 \begin{center} 
     \noindent\fbox{\begin{minipage}{0.7\textwidth}
         \centering Nice text in a box
@@ -153,7 +122,7 @@ Organizers:
 \end{itemize}
 \vfill
 
-\pagebreak
+\cleardoublepage
 
 \newcommand\talk[3]{%
     \vspace{3 ex}
@@ -199,7 +168,7 @@ Organizers:
 \textit{Lund University}
 \\
 \textbf{Álfheiður Edda Sigurðardóttir} -
-\textit{IMFM, Ljubljana}
+\textit{IMFM}
 \\
 \textbf{Andreas Lind} -
 \textit{Mittuniversitetet}
@@ -223,7 +192,7 @@ Organizers:
 \textit{Mittuniversitetet}
 \\
 \textbf{Beno Učakar} -
-\textit{University of Ljubljana}
+\textit{IMFM}
 \\
 \textbf{Bergur Snorrason} -
 \textit{Háskóli Íslands}
@@ -319,7 +288,7 @@ Organizers:
 \textit{Universitetet i Stavanger}
 \\
 \textbf{Wills Ton Minh Nguyen} -
-\textit{IMFM, Ljubljana}
+\textit{IMFM}
 \restoregeometry
 
 \newpage
