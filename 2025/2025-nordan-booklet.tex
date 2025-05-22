@@ -1,4 +1,5 @@
-\documentclass[12pt, openany, twoside]{report}      % paper size is in preamble.sty
+%\documentclass[12pt, openany, twoside]{report}      % paper size is in preamble.sty
+\documentclass[12pt, openany]{report}      % paper size is in preamble.sty
 
 %\usepackage[utf8x]{inputenc}
 %\renewcommand*\sfdefault{ugq}
@@ -49,21 +50,27 @@
         \end{minipage}
     }
 
+\setlength{\fboxrule}{1.5 pt}
+\setlength{\fboxsep}{3 pt}
 \vspace{10em}
     \noindent
-    \fbox{
-        \begin{minipage}{0.7\textwidth}
-            Eftir áratugsfjarveru verður 26.~Nordan ráðstefnan haldin á Íslandi.
-            Þetta er í fjórða skipti sem hún er haldin á Íslandi og fá nú gestir að dvelja á Hellu
-                undir vökulum augum Heklu, drottningu íslenskra eldfjalla.
-            Ráðstefnan er til heiðurs Jóni Ingólfi Magnússyni og Ragnari Sigurðssyni sem nýlega fóru á eftirlaun.
-            Eftir fyrirlestra laugardagsins fer hópurinn með rútu í Þórsmörk,
-                þar sem áhugasömum gefst kostur á að klífa Valahnúk.
-            Aðrir geta spókað sig um í sólinni,
-                sjá hún sér fært að mæta,
-                í einni af helstu náttúruperlum Íslands.
-            Á leiðinni aftur til Hellu verður viðkoma við Seljalandsfoss.
-        \end{minipage}
+    \fbox{%
+        \setlength{\fboxrule}{0.75 pt}%
+        \setlength{\fboxsep}{5 pt}%
+        \fbox{%
+            \begin{minipage}{0.7\textwidth}
+                Eftir áratugsfjarveru verður 26.~Nordan ráðstefnan haldin á Íslandi.
+                Þetta er í fjórða skipti sem hún er haldin hér og fá nú gestir að dvelja á Hellu
+                    undir vökulum augum Heklu, drottningu íslenskra eldfjalla.
+                Ráðstefnan er til heiðurs Jóni Ingólfi Magnússyni og Ragnari Sigurðssyni sem nýlega fóru á eftirlaun.
+                Eftir fyrirlestra laugardagsins fer hópurinn með rútu í Þórsmörk,
+                    þar sem áhugasömum gefst kostur á að klífa Valahnúk.
+                Aðrir geta spókað sig um í sólinni,
+                    sjá hún sér fært að mæta,
+                    í einni af helstu náttúruperlum Íslands.
+                Á leiðinni aftur til Hellu verður viðkoma við Seljalandsfoss.
+            \end{minipage}
+        }%
     }
 \end{center}
     
